@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*Print the Fahrenheit-Celcius Table for fahr = 0, 20, ..., 200 */
 int main()
 {
+    /*Print the Fahrenheit-Celcius Table for fahr = 0, 20, ..., 200 */
     float fahr, celcius;
     int lower, upper, step;
 
@@ -11,12 +11,28 @@ int main()
     step = 20;   // Step size.
 
     fahr = lower;
-    printf("f\t\tc\n"); // The escape character \t will be to insert a tabulation.
+    printf("fah\t\tcel\n"); // The escape character \t will be to insert a tabulation.
     while (fahr <= upper)
     {
         celcius = 5.0 / 9.0 * (fahr - 32.0);
         printf("%3.0f\t%6.1f\n", fahr, celcius);
         fahr = fahr + step;
+    }
+
+    /*Ex 1-4 Print the Celcius-Fahrenheit Table for fahr = 0, 20, ..., 200 */
+
+    fahr = 0;
+    celcius = 0;
+    lower = 0;
+    upper = 300;
+
+    celcius = lower;
+    printf("cel\t\tfah\n");
+    while (celcius <= upper)
+    {
+        fahr = (9.0 / 5.0 * celcius) + 32.0;
+        printf("%3.0f\t%6.1f\n", celcius, fahr);
+        celcius = celcius + step;
     }
 
     return 1;

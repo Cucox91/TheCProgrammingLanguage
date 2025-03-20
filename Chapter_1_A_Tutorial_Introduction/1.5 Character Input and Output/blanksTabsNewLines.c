@@ -22,5 +22,5 @@ int main()
     printf("tabs: %d\n", tabs);
     printf("New Lines: %d\n", newLines);
 
-    return 1;
+    return 0;
 }

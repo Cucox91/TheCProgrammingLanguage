@@ -13,5 +13,5 @@ int main()
         printf("%s", current);
     }
 
-    return 1;
+    return 0;
 }

@@ -37,5 +37,5 @@ int main()
 
     printf(", white spaces = %d, other = %d\n", nwhite, nother);
 
-    return 1;
+    return 0;
 }

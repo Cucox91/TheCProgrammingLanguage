@@ -24,5 +24,5 @@ int main()
         fahr = fahr + step;
     }
 
-    return 1;
+    return 0;
 }

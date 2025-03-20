@@ -31,5 +31,5 @@ int main()
 
     printf("Lines: %d\nWords:%d\nCharacters:%d\n", nl, nw, nc);
 
-    return 1;
+    return 0;
 }

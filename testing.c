@@ -25,5 +25,5 @@ int main()
     printf("%s \n", "sd");
 
 
-    return 1;
+    return 0;
 }
